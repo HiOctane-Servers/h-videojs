@@ -32,21 +32,21 @@ Offline Version:
 ## Build Dependencies
 - TypeScript
 - Prettier
+- uglifycss
 
 ## Supported Browsers (Known)
 - Google Chrome
-- Mozilla FIrefox
-- Internet Explorer (Tested IE8)
+- Mozilla Firefox
+- Internet Explorer (IE11)
 - Microsoft Edge
-- Safari
 
 ## Todo
 - [ ] Add caption/subtitle support (coming soon)
 - [ ] Add picture-in-picture mode
 - [ ] Blob URL setting / MSE
+- [ ] Saves volume setting in browser cache (Cookies)
 
 ## Features
-- Saves volume setting in browser cache (Cookies)
 - Easy to use video player
 - Customizable player controls
 - User friendly experience
