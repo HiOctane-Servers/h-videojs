@@ -13,8 +13,8 @@ Add `id="h-video"` to your `<video>` element and add the following in your HTML 
 Online/Public Distribution Version:
 ```html
 <!-- HiOctane VideoJS Public Distribution Version -->
-<link rel="stylesheet" href="https://videojs.hioctane.org/latest/h-player.css">
-<script src="https://videojs.hioctane.org/latest/h-player.js"></script>
+<link rel="stylesheet" href="https://videojs.hioctane.org/dist/h-player.css">
+<script src="https://videojs.hioctane.org/dist/h-player.js"></script>
 ```
 
 Offline Version:
