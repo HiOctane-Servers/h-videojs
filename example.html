@@ -1,0 +1,47 @@
+<html>
+    <head>
+        <title>HiOctane VideoJS Public Demo: Big Buck Bunny</title>
+        <link rel="icon" type="image/png" href="https://hioctane.org/favicon.ico">
+        <style>
+            /* FONTS */
+            @import url("https://fonts.googleapis.com/css2?family=Nunito+Sans");
+
+            body {
+                background-color: #292929;
+                color: #FFFFFF;
+            	font-family: "Nunito Sans", sans-serif;
+            }
+            main div.description {
+                padding: 1em;
+                text-align: center;
+            }
+            div.js {
+                visibility: hidden;
+            }
+        </style>
+    </head>
+    <body>
+        <main>
+            <div>
+                <video src="https://archive.org/download/BigBuckBunny_328/BigBuckBunny_512kb.mp4" type="video/mp4" width="1280" height="720"></video>
+            </div>
+            <div class="description">
+                <span>
+                    HiOctane VideoJS Public Demo: Big Buck Bunny<br/>
+                    <a href="https://github.com/mist8kengas/hioctane-videojs" target="_blank">GitHub</a>
+                </span>
+            </div>
+        </main>
+        <div class="js">
+            <!-- HiOctane VideoJS Public Distribution Version -->
+            <link rel="stylesheet" href="https://videojs.hioctane.org/latest/dist/h-player.css">
+            <script src="https://videojs.hioctane.org/latest/dist/h-player.js"></script>
+            <script>
+                if (window.HPlayer) {
+                    var video = document.querySelector('video');
+                    new HPlayer(video);
+                }
+            </script>
+        </div>
+    </body>
+</html>

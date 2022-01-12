@@ -1,0 +1,28 @@
+{
+  "name": "h-videojs",
+  "version": "2.0.0",
+  "description": "HiOctane VideoJS Plugin for HTML5 Video",
+  "main": "index.js",
+  "scripts": {
+    "watch": "tsc --watch",
+    "build": "tsc --build && uglifycss --ugly-comments ./src/h-player.css > ./dist/h-player.css",
+    "build:ts": "tsc --build",
+    "build:css": "uglifycss --ugly-comments ./src/h-player.css > ./dist/h-player.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HiOctane-Servers/h-videojs.git"
+  },
+  "author": "mist8kengas",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/HiOctane-Servers/h-videojs/issues"
+  },
+  "homepage": "https://github.com/HiOctane-Servers/h-videojs#readme",
+  "devDependencies": {
+    "prettier": "^2.5.1",
+    "typescript": "^4.5.4",
+    "uglifycss": "0.0.29"
+  },
+  "dependencies": {}
+}

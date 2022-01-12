@@ -1,0 +1,1 @@
+{"version":3,"file":"h-player.d.ts","sourceRoot":"","sources":["../src/h-player.ts"],"names":[],"mappings":"AAAA,cAAM,OAAO;IAET,KAAK,EAAE,gBAAgB,CAAC;IACxB,cAAc,WA2OsB,OAAO,GAAG,SAAS,0BA3OxC;IAGf,MAAM,CAAC,OAAO,SAAW;gBAWb,YAAY,EAAE,gBAAgB;IAya1C,OAAO,QAAS,MAAM,KAAG,MAAM,CAK7B;IAUF,IAAI,6BAAmC;IAUvC,KAAK,6BAAoC;CAC5C"}
